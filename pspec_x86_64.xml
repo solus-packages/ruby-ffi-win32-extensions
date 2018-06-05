@@ -1,0 +1,48 @@
+<PISI>
+    <Source>
+        <Name>ruby-ffi-win32-extensions</Name>
+        <Packager>
+            <Name>Jonathan Camara</Name>
+            <Email>jonathan@jonathancamara.com</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - ffi-win32-extensions</Summary>
+        <Description xml:lang="en">Ruby library that extends FFI and String classes for MS Windows.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-ffi-win32-extensions</Name>
+        <Summary xml:lang="en">RubyGem - ffi-win32-extensions</Summary>
+        <Description xml:lang="en">Ruby library that extends FFI and String classes for MS Windows.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/CHANGES</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/MANIFEST</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/certs/djberg96_pub.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/ffi-win32-extensions.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/lib/ffi-win32-extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/lib/ffi/win32/extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/test/test_ffi_extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/test/test_string_extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/ffi-win32-extensions-1.0.3.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-03</Date>
+            <Version>1.0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jonathan Camara</Name>
+            <Email>jonathan@jonathancamara.com</Email>
+        </Update>
+    </History>
+</PISI>

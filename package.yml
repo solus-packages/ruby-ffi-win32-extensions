@@ -1,0 +1,16 @@
+name       : ruby-ffi-win32-extensions
+version    : 1.0.3
+release    : 1
+source     :
+    - https://rubygems.org/downloads/ffi-win32-extensions-1.0.3.gem : f474a976492ea6c566ab5609239e44a466ceb1ce1e6529745422de35f29a93fb
+license    : Apache-2.0
+component  : programming.ruby
+summary    : RubyGem - ffi-win32-extensions
+description: |
+    Ruby library that extends FFI and String classes for MS Windows.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-ffi
+install    : |
+    %gem_install
