@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-ffi-win32-extensions</Name>
         <Packager>
-            <Name>Jonathan Camara</Name>
-            <Email>jonathan@jonathancamara.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,30 +19,30 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/CHANGES</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/MANIFEST</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/README</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/certs/djberg96_pub.pem</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/ffi-win32-extensions.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/lib/ffi-win32-extensions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/lib/ffi/win32/extensions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/test/test_ffi_extensions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ffi-win32-extensions-1.0.3/test/test_string_extensions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/ffi-win32-extensions-1.0.3.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/CHANGES</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/MANIFEST</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/certs/djberg96_pub.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/ffi-win32-extensions.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/lib/ffi-win32-extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/lib/ffi/win32/extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/test/test_ffi_extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ffi-win32-extensions-1.0.3/test/test_string_extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/ffi-win32-extensions-1.0.3.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-06-03</Date>
+        <Update release="2">
+            <Date>2018-12-26</Date>
             <Version>1.0.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jonathan Camara</Name>
-            <Email>jonathan@jonathancamara.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
